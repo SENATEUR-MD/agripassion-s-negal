@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agripassion Sénégal — Pape Moussa Diop</title>
+  <meta name="description" content="Site communautaire d'Agripassion Sénégal — partager des pratiques agricoles durables et contacter Pape Moussa Diop." />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:#0b1220;background:#f8fafc}
+    header{background:linear-gradient(90deg,#16a34a,#22c55e);color:white;padding:18px 6%}
+    .nav{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;font-size:1.2rem}
+    .nav-links{display:flex;gap:14px}
+    .nav-links a{color:rgba(255,255,255,0.95);text-decoration:none;padding:8px 12px;border-radius:8px}
+    .nav-links a:hover{background:rgba(255,255,255,0.08)}
+
+    .container{max-width:1100px;margin:0 auto;padding:36px 6%}
+    .hero{display:grid;grid-template-columns:1fr;gap:20px;align-items:center}
+    .hero h1{font-size:2rem;margin-bottom:8px}
+    .hero p{color:#334155;line-height:1.6}
+    .cta{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:10px;background:#15803d;color:white;text-decoration:none}
+
+    .card{background:white;border-radius:12px;padding:18px;box-shadow:0 8px 20px rgba(2,6,23,0.06)}
+    .grid-3{display:grid;grid-template-columns:repeat(1,1fr);gap:18px}
+
+    .profile{display:flex;gap:16px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:12px;object-fit:cover;flex-shrink:0}
+
+    .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+
+    form{display:grid;gap:12px}
+    input,textarea,select{padding:10px;border:1px solid #e6eef3;border-radius:8px;font-size:0.98rem}
+    button{padding:10px 14px;border-radius:10px;border:0;background:#16a34a;color:white;font-weight:600}
+
+    footer{background:#072017;color:#cfeedc;padding:22px 6%}
+    .foot-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+
+    @media(min-width:768px){
+      .hero{grid-template-columns:1fr 420px}
+      .grid-3{grid-template-columns:repeat(3,1fr)}
+      .gallery{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">Agripassion Sénégal</div>
+      <div class="nav-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#objectif">Objectif</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="accueil" class="container hero">
+      <div>
+        <h1>Bienvenue — Ensemble pour une agriculture durable</h1>
+        <p>Bienvenue sur Agripassion Sénégal, un espace de partage et d'entraide pour les acteurs de l'agriculture. Ici nous discutons techniques, innovations, challenges et opportunités locales pour faire grandir nos projets et améliorer nos rendements.</p>
+        <a class="cta" href="#contact">Contactez Pape Moussa</a>
+
+        <div class="card" style="margin-top:18px">
+          <h3>Ce que vous trouverez ici</h3>
+          <ul style="margin-top:8px;line-height:1.6">
+            <li>Conseils pratiques et retours d'expérience</li>
+            <li>Ressources pour culture, élevage et gestion</li>
+            <li>Opportunités de collaboration locale</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img class="avatar" src="https://picsum.photos/seed/agri_profile/400/400" alt="Photo de Pape Moussa">
+          <div>
+            <h3>Pape Moussa Diop</h3>
+            <p style="margin-top:6px;color:#334155">Passionné d'agriculture — Sokone / Fatick</p>
+            <p style="margin-top:8px;font-size:0.95rem;color:#0b1220">Je mets en lien les acteurs du secteur pour partager savoir-faire, idées de projets et opportunités. Contactez-moi pour collaborer ou poser vos questions.</p>
+          </div>
+        </div>
+
+        <div style="margin-top:12px;color:#334155">
+          <strong>Contact rapide :</strong>
+          <div style="margin-top:6px">📧 dioppapemoussa20@gmail.com</div>
+          <div>📞 +221 78 554 62 11</div>
+          <div>📍 Sokone, Fatick</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="a-propos" class="container">
+      <h2 style="margin-bottom:12px">À propos de moi</h2>
+      <div class="card">
+        <p>Je suis <strong>Pape Moussa Diop</strong>, originaire de Sokone (région de Fatick). Depuis plusieurs années, je travaille et m'intéresse aux techniques agricoles adaptées à notre climat : diversification des cultures, agriculture sous serre, gestion de l'eau et amélioration des rendements avec des méthodes durables. Mon objectif avec Agripassion Sénégal est de réunir les passionnés et les professionnels pour apprendre ensemble, tester des idées et lancer des projets locaux qui améliorent nos conditions de vie.</p>
+      </div>
+    </section>
+
+    <section id="objectif" class="container">
+      <h2 style="margin-bottom:12px">Objectif du site</h2>
+      <div class="card">
+        <ol style="line-height:1.7">
+          <li>Créer un réseau local d'agriculteurs et passionnés pour partager les expériences.</li>
+          <li>Documenter des techniques adaptées au Sénégal (saison sèche / saison des pluies).</li>
+          <li>Promouvoir des projets collectifs (achat groupé de semences, formation, etc.).</li>
+        </ol>
+
+        <h4 style="margin-top:12px">Scènes agricoles du Sénégal</h4>
+        <div class="gallery" style="margin-top:8px">
+          <img src="https://www.borgenmagazine.com/wp-content/uploads/2017/10/Senegal-agriculture.jpg" alt="Labourage traditionnel avec animaux">
+          <img src="https://news.mongabay.com/wp-content/uploads/sites/20/2023/05/Rice-Senegal-Farms-1-960x540.jpg" alt="Agriculteur dans un champ">
+          <img src="https://borgenproject.org/wp-content/uploads/2020/12/Female-farmer-working-the-land-in-Senegal.jpg" alt="Femme travaillant la terre">
+          <img src="https://foodtank.com/wp-content/uploads/2018/08/CORAF-research-960x540.jpg" alt="Récolte de céréales au Sénégal">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2 style="margin-bottom:12px">Contact — Écrivez-moi</h2>
+      <div class="card">
+        <p>Utilisez le formulaire ci-dessous pour m'envoyer un message. Vos idées, questions et propositions de collaboration sont les bienvenues.</p>
+
+        <!-- Formulaire connecté à Formsubmit : les messages seront envoyés à l'email fourni -->
+        <form action="https://formsubmit.co/dioppapemoussa20@gmail.com" method="POST">
+          <!-- Personnalisation du message envoyé -->
+          <input type="hidden" name="_subject" value="Nouveau message depuis Agripassion Sénégal" />
+          <input type="hidden" name="_template" value="table" />
+
+          <label>Nom complet</label>
+          <input type="text" name="name" placeholder="Votre nom" required>
+
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Votre email" required>
+
+          <label>Message</label>
+          <textarea name="message" rows="6" placeholder="Votre message..." required></textarea>
+
+          <label>Vous êtes :</label>
+          <select name="role">
+            <option value="agriculteur">Agriculteur / Agricultrice</option>
+            <option value="étudiant">Étudiant</option>
+            <option value="professionnel">Professionnel du secteur</option>
+            <option value="autre">Autre</option>
+          </select>
+
+          <button type="submit">Envoyer le message</button>
+        </form>
+
+        <p style="margin-top:10px;color:#475569">Après envoi, Formsubmit vous enverra une confirmation. Si vous ne recevez rien, vérifiez le dossier spam ou contactez-moi directement par email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-inner">
+      <div>
+        © <span id="year"></span> Agripassion Sénégal — Pape Moussa Diop
+      </div>
+      <div>📞 +221 78 554 62 11 • 📧 dioppapemoussa20@gmail.com</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
